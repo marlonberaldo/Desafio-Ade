@@ -65,6 +65,7 @@
         padding-top: 0;
         align-items: center;
         width: 100%;
+        margin-bottom: 80px;
     }
 
     .esquerda img {
@@ -82,8 +83,6 @@
         font-size: 30px;
     }
 
-
-
     .vetor img {
         margin-right: 8px;
     }
@@ -93,15 +92,23 @@
     }
 
     .esquerda img {
+        display: flex;
+        justify-content: center;
         padding-bottom: 50px;
     }
 
     .vetor h3 {
         font-size: 15px;
+        line-height: 15px;
     }
 
     .direita {
         width: 100%;
     }
+
+    .direita .botaum {
+        margin-left: 20px;
+    }
+
 
 }
