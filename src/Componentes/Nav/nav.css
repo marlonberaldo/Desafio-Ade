@@ -79,13 +79,14 @@ p {
     }
 
     .down {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
         gap: 1rem;
     }
 
     .up__rating {
-        width: 80%;
+        width: 60%;
         display: flex;
         justify-content: space-around;
         flex-direction: column;

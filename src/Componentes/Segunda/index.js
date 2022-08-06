@@ -6,20 +6,19 @@ import frame_2 from '../../assets/Frame-2.svg'
 
 const Segunda = () => {
     return (
-        <section className='segunda__section'>
-            <div className="container container__segunda">
+        <div className="container container__segunda">
+            <div className="esquerda">
+                <img src={image2} alt="Moça segurando livro" />
+            </div>
 
-                <div className="esquerda">
-                    <img src={image2} alt="Moça segurando livro" />
-                </div>
-
-                <div className="direita">
-                    <h2>What Kind of Cources Klearning Offer for Platform</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet,
-                        consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                        tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enivm ad
-                    </p>
+            <div className="direita">
+                <h2>What Kind of Cources Klearning Offer for Platform</h2>
+                <p>
+                    Lorem ipsum dolor sit amet,
+                    consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                    tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enivm ad
+                </p>
+                <div className="conteudo__courses">
                     <ul className="direita__lista">
                         <li className='vetor'>
                             <img src={frame} alt="Vetor" />
@@ -41,7 +40,7 @@ const Segunda = () => {
                     <a href="#explore" className='btn botaum'>Explore Cources</a>
                 </div>
             </div>
-        </section>
+        </div>
 
     )
 }

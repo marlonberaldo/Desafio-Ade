@@ -68,9 +68,8 @@
         margin-bottom: 80px;
     }
 
-    .esquerda img {
-        width: 80%;
-    }
+
+
 
     .direita h2,
     .direita p {
@@ -81,9 +80,17 @@
 
     .direita h2 {
         font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+    .vetor h3 {
+        font-size: 14px;
+        line-height: 14px;
     }
 
     .vetor img {
+        width: 40%;
         margin-right: 8px;
     }
 
@@ -91,24 +98,36 @@
         padding: 50px 20px;
     }
 
-    .esquerda img {
-        display: flex;
-        justify-content: center;
-        padding-bottom: 50px;
+    .conteudo__courses {
+        width: 90%;
+        border: 2px solid var(--cor-primaria);
+        margin: 50px auto;
+        border-radius: 20px;
+        position: relative;
     }
 
-    .vetor h3 {
-        font-size: 15px;
-        line-height: 15px;
+    .esquerda img {
+        background: var(--cor-bg);
+        width: 80%;
+        display: flex;
+        padding-bottom: 50px;
+        margin: 0 auto;
+        margin-bottom: 3rem;
     }
 
     .direita {
-        width: 100%;
+        width: 90%;
     }
 
-    .direita .botaum {
-        margin-left: 20px;
+    .conteudo__courses .botaum {
+        position: absolute;
+        bottom: -15px;
+        left: 20px;
     }
 
-
+    .botaum:hover {
+        background: var(--cor-primaria);
+        transform: scale(1.05);
+        transition: all 400ms ease-in-out;
+    }
 }
