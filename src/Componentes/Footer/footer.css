@@ -94,13 +94,14 @@
         padding: 0;
         width: 90%;
         height: max-content;
+        padding: 1rem 0;
+
     }
 
     .parte_1,
     .parte_2 {
         border-right: none;
         border-bottom: 2px solid var(--cor-primaria);
-        padding: 1rem 0;
     }
 
 }
