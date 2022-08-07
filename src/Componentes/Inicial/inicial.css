@@ -84,12 +84,12 @@ h1 {
     margin-right: 14px;
 }
 
-.botaum a {
+.botaum_1 a {
     display: flex;
     align-items: center;
 }
 
-.botaum a:hover {
+.botaum_1 a:hover {
     color: var(--cor-primaria);
     transition: all 400ms ease;
 }

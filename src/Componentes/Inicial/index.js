@@ -24,7 +24,7 @@ const inicial = () => {
                                 <a href='#getstart' className='btn'>
                                     Get Started
                                 </a>
-                                <div className="botaum">
+                                <div className="botaum_1">
                                     <a href="#more">
                                         <AiFillPlayCircle className='botoes__icone' />
                                         Learn more
