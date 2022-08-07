@@ -1,6 +1,7 @@
 import './header.css'
 import logo from '../../assets/main-logo.svg'
-import { TiThMenuOutline } from 'react-icons/ti'
+import { FaUserAlt } from 'react-icons/fa'
+import Sidebar from '../Sidebar'
 
 const Header = () => {
     return (
@@ -29,6 +30,13 @@ const Header = () => {
                     <li className="lista__header-item">
                         <a href="#contact">Contacts</a>
                     </li>
+                    <li className="lista__header-item ui">
+                        <a href="#acount">
+                            <FaUserAlt />
+                        </a>
+                    </li>
+
+
                 </ul>
 
                 <div className="lista__login">
@@ -38,7 +46,7 @@ const Header = () => {
             </div>
 
             <div className="header__mobile">
-                <TiThMenuOutline className='hamburguer' />
+                <Sidebar className='hamburguer' />
                 <div className="logo">
                     <a href="#header"><img src={logo} alt="Logo Desafio" /></a>
                 </div>

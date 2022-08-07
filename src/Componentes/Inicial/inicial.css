@@ -114,6 +114,7 @@ h1 {
 }
 
 
+
 /* =-=-=-=-= @media query (tablet) -=-=-=-= */
 
 @media screen and (max-width: 1024px) and (min-width:600px) {
@@ -221,6 +222,10 @@ h1 {
     .botoes {
         display: flex;
         justify-content: center;
+    }
+
+    .botoes .btn {
+        margin-right: 1rem;
     }
 
 }

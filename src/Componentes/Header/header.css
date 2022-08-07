@@ -64,6 +64,10 @@ a {
     display: none;
 }
 
+.ui {
+    display: none;
+}
+
 
 /* =-=-=-=-= @media query (tablet) -=-=-=-= */
 
@@ -90,6 +94,9 @@ a {
         display: none;
     }
 
+    .ui {
+        display: block;
+    }
 }
 
 /* =-=-=-=-= @media query (mobile) -=-=-=-= */
@@ -101,9 +108,14 @@ a {
         z-index: 5;
     }
 
+    .container__header {
+        background: blue;
+        display: none;
+    }
+
     .header__mobile {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: center;
         padding: 1rem;
     }
@@ -112,10 +124,6 @@ a {
         font-size: 25px;
     }
 
-    .container__header {
-        background: blue;
-        display: none;
-    }
 
 
 }

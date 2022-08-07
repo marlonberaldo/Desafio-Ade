@@ -15,6 +15,7 @@
 .parte_1,
 .parte_2 {
     border-right: 2px solid #fff;
+
 }
 
 .parte h3 {
@@ -27,7 +28,7 @@
 }
 
 .parte p {
-    width: 90%;
+    width: 100%;
     font-size: 20px;
     font-weight: 300;
     line-height: 29px;
@@ -86,7 +87,7 @@
         text-align: center;
         font-size: 10px;
         width: 100%;
-        padding: 0 0;
+        padding: 0;
     }
 
     .parte {
@@ -97,7 +98,9 @@
 
     .parte_1,
     .parte_2 {
-        border: none;
+        border-right: none;
+        border-bottom: 2px solid var(--cor-primaria);
+        padding: 1rem 0;
     }
 
 }
