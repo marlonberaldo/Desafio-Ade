@@ -1,5 +1,6 @@
 header {
     background: var(--cor-header);
+    height: max-content;
 }
 
 .container__header {
@@ -10,11 +11,12 @@ header {
 
 .lista__header {
     display: flex;
+    padding: 40px 0;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-left: 4rem;
 }
 
-.lista__header li {
-    padding: 40px 35px 40px 0;
-}
 
 a {
     color: var(--cor-branca);
@@ -31,20 +33,28 @@ a {
     transition: all 300ms ease-in-out;
 }
 
-.lista__login a {
-    padding: 0 20px;
+.lista__login {
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 2rem;
+}
+
+.lista__header-item a {
     font-weight: 500;
 }
 
-.lista__login .btn {
+.botao_sign {
     background: rgba(95, 174, 196, 0.2);
     padding: 12px 24px;
     border-radius: 6px;
     font-weight: 300;
+    font-size: 13px;
     border: 1px solid transparent;
 }
 
-.lista__login .btn:hover {
+.botao_sign:hover {
     background-color: transparent;
     transition: all 300ms ease-in-out;
     border: 1px solid var(--cor-primaria);
@@ -54,19 +64,52 @@ a {
     display: none;
 }
 
-/* =-=-=-=-= @media query (mobile) -=-=-=-= */
 
-@media screen and (max-width: 600px) {
+/* =-=-=-=-= @media query (tablet) -=-=-=-= */
 
+@media screen and (max-width: 1024px) and (min-width:600px) {
     header {
         width: 100%;
     }
 
+    .container__header {
+        flex-direction: column;
+    }
+
+    .logo {
+        padding: 1rem 0;
+    }
+
+    .lista__header {
+        padding: 0;
+        gap: 2rem;
+        margin-left: 1rem;
+    }
+
+    .lista__login {
+        display: none;
+    }
+
+}
+
+/* =-=-=-=-= @media query (mobile) -=-=-=-= */
+
+@media screen and (max-width: 600px) {
+    header {
+        width: 100%;
+        position: fixed;
+        z-index: 5;
+    }
+
     .header__mobile {
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
-        padding-top: 2rem;
+        padding: 1rem;
+    }
+
+    .hamburguer {
+        font-size: 25px;
     }
 
     .container__header {

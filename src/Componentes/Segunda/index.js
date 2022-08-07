@@ -7,7 +7,7 @@ import frame_2 from '../../assets/Frame-2.svg'
 const Segunda = () => {
     return (
         <div className="container container__segunda">
-            <div className="esquerda">
+            <div className="esquerda" >
                 <img src={image2} alt="Moça segurando livro" />
             </div>
 
@@ -41,7 +41,6 @@ const Segunda = () => {
                 </div>
             </div>
         </div>
-
     )
 }
 

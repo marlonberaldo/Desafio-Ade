@@ -70,7 +70,7 @@ h1 {
 .botoes {
     display: flex;
     align-items: center;
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
 }
 
 .botoes a {
@@ -105,9 +105,64 @@ h1 {
 }
 
 .left {
-    padding-top: 80px;
+    padding-top: 60px;
 }
 
+.right {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* =-=-=-=-= @media query (tablet) -=-=-=-= */
+
+@media screen and (max-width: 1024px) and (min-width:600px) {
+    .primeira__section {
+        width: 100%;
+    }
+
+    .container__primeira {
+        padding-top: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .frame_3 {
+        grid-area: frame_3;
+    }
+
+    .left {
+        width: min-content;
+    }
+
+    .left h1 {
+        grid-area: h1;
+        text-align: center;
+        width: 90%;
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .moca {
+        width: 100%;
+        grid-area: moca;
+    }
+
+    .content {
+        grid-area: conteudo;
+        width: 100%;
+        margin: 2rem 0;
+    }
+
+    .charts {
+        display: none;
+    }
+
+    .botoes {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}
 
 /* =-=-=-=-= @media query (mobile) -=-=-=-= */
 
@@ -119,10 +174,18 @@ h1 {
         /* margin-bottom: 80px; */
     }
 
+    .mobile {
+        width: 90%;
+        margin: 2rem auto 2rem;
+        border: 2px solid var(--cor-primaria);
+        border-radius: 20px;
+        padding: 1rem 3rem 0 3rem;
+    }
+
     .container__primeira {
         flex-direction: column;
         align-items: center;
-        padding-top: 0;
+        padding-top: 50px;
     }
 
     .charts-item {

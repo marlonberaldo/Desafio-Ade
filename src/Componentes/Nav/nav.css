@@ -4,9 +4,10 @@
 
 .navegacao {
     background: var(--cor-branca);
-    width: 910px;
-    left: 260px;
-    top: 660px;
+    width: 60%;
+    /* left: 260px; */
+    right: 370px;
+    top: 670px;
     border-radius: 7.5px;
     position: absolute;
 }
@@ -55,11 +56,14 @@ p {
 
 /* =-=-=-=-= @media query (tablet) -=-=-=-= */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px)and (min-width:600px) {
     .container {
         width: var(--container-width-tablet);
     }
 
+    .navegacao {
+        display: none;
+    }
 }
 
 /* =-=-=-=-= @media query (mobile) -=-=-=-= */

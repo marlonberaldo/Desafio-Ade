@@ -20,7 +20,6 @@ const inicial = () => {
                         <h1>A New Different Way to Improve Your Skill</h1>
                         <div className="mobile">
                             <p className='content'>Learning is a Global training Provider based across the UK test specializes in accredited and bsbespoke csources</p>
-
                             <div className='botoes'>
                                 <a href='#getstart' className='btn'>
                                     Get Started
@@ -39,7 +38,7 @@ const inicial = () => {
                         <div className="charts">
                             <img src={charts} alt="Charts" className='charts-item' />
                         </div>
-                        <img src={image} alt="Moca" />
+                        <img src={image} alt="Moca" className='moca' />
 
                     </div>
                 </div>

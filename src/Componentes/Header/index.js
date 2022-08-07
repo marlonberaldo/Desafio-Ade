@@ -1,6 +1,6 @@
 import './header.css'
 import logo from '../../assets/main-logo.svg'
-// import { TiThMenuOutline } from 'react-icons/ti'
+import { TiThMenuOutline } from 'react-icons/ti'
 
 const Header = () => {
     return (
@@ -33,12 +33,12 @@ const Header = () => {
 
                 <div className="lista__login">
                     <a href="#login" className="login">Log in</a>
-                    <a href="#sign" className="botao btn">Sign In</a>
+                    <a href="#sign" className="botao_sign">Sign In</a>
                 </div>
             </div>
 
             <div className="header__mobile">
-                {/* <TiThMenuOutline /> */}
+                <TiThMenuOutline className='hamburguer' />
                 <div className="logo">
                     <a href="#header"><img src={logo} alt="Logo Desafio" /></a>
                 </div>

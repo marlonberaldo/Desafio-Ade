@@ -35,6 +35,36 @@
     color: var(--cor-branca);
 }
 
+/* =-=-=-=-= @media query (tablet) -=-=-=-= */
+
+@media screen and (max-width: 1024px)and (min-width:600px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        height: 14rem;
+    }
+
+    .parte h3 {
+        text-align: center;
+        width: 100%;
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .parte p {
+        text-align: center;
+        font-size: 10px;
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .parte {
+        padding: 0;
+        width: 90%;
+        height: max-content;
+    }
+}
+
 /* =-=-=-=-= @media query (mobile) -=-=-=-= */
 
 @media screen and (max-width: 600px) {
