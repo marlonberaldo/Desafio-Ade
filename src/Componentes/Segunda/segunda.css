@@ -64,6 +64,7 @@
 @media screen and (max-width: 1024px) and (min-width:600px) {
     .container__segunda {
         padding: 4rem 0;
+        /* padding: 12rem 0 4rem 0; */
         width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -116,9 +117,7 @@
         width: 40%;
         margin-right: 10px;
     }
-
 }
-
 
 @media screen and (max-width: 600px) {
     .container__segunda {

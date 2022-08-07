@@ -17,7 +17,6 @@ header {
     margin-left: 4rem;
 }
 
-
 a {
     color: var(--cor-branca);
     font-weight: 300;
@@ -67,7 +66,6 @@ a {
 .ui {
     display: none;
 }
-
 
 /* =-=-=-=-= @media query (tablet) -=-=-=-= */
 
@@ -123,7 +121,5 @@ a {
     .hamburguer {
         font-size: 25px;
     }
-
-
 
 }

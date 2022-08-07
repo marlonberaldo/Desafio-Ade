@@ -61,8 +61,35 @@ p {
         width: var(--container-width-tablet);
     }
 
+    .up__logo {
+        display: none;
+    }
+
     .navegacao {
         display: none;
+        top: 610px;
+        width: 70vw;
+        right: 100px;
+    }
+
+    .down {
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+        padding: 0 10px 10px 10px;
+    }
+
+    .down img {
+        width: 70%;
+    }
+
+    .up {
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .up__rating {
+        text-align: center;
     }
 }
 

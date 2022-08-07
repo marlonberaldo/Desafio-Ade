@@ -11,7 +11,6 @@ import './sidebar.css'
 const Sidebar = () => {
 
     const [barralateral, setBarralateral] = useState(false)
-
     const showBarralateral = () => setBarralateral(!barralateral)
 
     return (
